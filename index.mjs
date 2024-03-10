@@ -179,7 +179,7 @@ async function setPayload(msg, button = '') {
                 payload[i].width /= 2;
                 payload[i].height /= 2;
             }
-        } else if (modelo.inclues('juggernautXL_v9Rdphoto2Lightning')) {
+        } else if (modelo.includes('juggernautXL_v9Rdphoto2Lightning')) {
             payload[i].steps = 5;
             payload[i].cfg_scale = 2;
             payload[i].sampler_name = 'DPM++ SDE';
