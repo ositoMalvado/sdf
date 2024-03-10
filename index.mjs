@@ -118,7 +118,7 @@ const upscale_payload =
 {
     "resize_mode": 0,
     "upscaling_resize": 2,
-    "upscaler_1": "4xUltrasharp",
+    "upscaler_1": "R-ESRGAN 4x+",
 }
 
 async function setPayload(msg, button = '') {
@@ -155,7 +155,7 @@ async function setPayload(msg, button = '') {
         payload[i].hr_scale = USER_CONFIG[msg.from.id].hr_scale
         payload[i].denoising_strength = USER_CONFIG[msg.from.id].denoising_strength
         payload[i].adetailer = false
-        payload[i].hr_upscaler = "4xUltrasharp"
+        payload[i].hr_upscaler = "R-ESRGAN 4x+"
         payload[i].eta = 1
         let dim = ''
         if (msg.tipo == "photo") {
