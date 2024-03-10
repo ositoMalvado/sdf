@@ -240,6 +240,7 @@ async function setPayload(msg, button = '') {
                     ADetailer: {
                         args: [
                             { ad_model: "mediapipe_face_full", ad_confidence: 0.35 },
+                            { ad_model: "mediapipe_face_mesh", ad_confidence: 0.35 },
                             { ad_model: "mediapipe_face_mesh_eyes_only", ad_confidence: 0.35 },
                             { ad_model: "breasts_seg.pt", ad_confidence: 0.35 },
 
