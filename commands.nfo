@@ -12,6 +12,7 @@ node -e "console.log('Running Node.js ' + process.version)"
 npm install axios
 npm install telebot
 npm install p-limit
+
 # CONSOLE PARA INSTALAR NPM + PYTHON 3.10.6 - FIN
 
 # CONSOLE PARA EJECUTAR BOT TELEGRAM
